@@ -1,0 +1,206 @@
+/* Import a clean, professional font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* Use the local background image */
+    background-image: url("court-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background static on scroll */
+    min-height: 100vh;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.overlay {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Base style for the glass-like containers */
+.glass-container {
+    background: rgba(10, 10, 20, 0.6); /* Dark semi-transparent background */
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 100%;
+    padding: 35px 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.form-container {
+    max-width: 550px;
+    flex-shrink: 0;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: rgba(59, 130, 246, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 30px;
+    background: #3B82F6; /* A modern blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button:hover:not(:disabled) {
+    background: #2563EB;
+}
+
+button:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Loading spinner styles */
+.loader {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    display: none; /* Hidden by default */
+}
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.result-container {
+    max-width: 800px;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.result-header h2 {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.pdf-button {
+    background: #10B981; /* A nice green color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pdf-button:hover {
+    background: #059669;
+}
+
+.error-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    text-align: center;
+}
+
+.result-box {
+    font-size: 16px;
+}
+
+.result-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+.result-item strong {
+    color: #60A5FA; /* Light blue for keys */
+    display: block;
+    margin-bottom: 4px;
+}
+.result-item p {
+    margin-top: 5px;
+    white-space: pre-wrap;
+    color: #e0e0e0;
+}
+.pdf-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.pdf-list li a {
+    color: #93C5FD;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.pdf-list li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}

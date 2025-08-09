@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Court Case Finder</title>
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Link to our stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- jsPDF library for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="overlay">
+        <!-- The main search form container -->
+        <div class="form-container glass-container">
+            <h1>🔎 Search Court Case</h1>
+            <form method="POST" action="/" id="case-form">
+                <label for="case_type">Case Type:</label>
+                <input type="text" id="case_type" name="case_type" placeholder="e.g., W.P.(C)" value="{{ form_data.case_type if form_data }}" required>
+
+                <label for="case_number">Case Number:</label>
+                <input type="text" id="case_number" name="case_number" placeholder="e.g., 1234" value="{{ form_data.case_number if form_data }}" required>
+
+                <label for="filing_year">Filing Year:</label>
+                <input type="text" id="filing_year" name="filing_year" placeholder="e.g., 2023" value="{{ form_data.filing_year if form_data }}" required>
+
+                <button type="submit" id="submit-button">
+                    <!-- The loader element is now inside the button -->
+                    <span class="loader" id="loader"></span>
+                    <span id="button-text">Fetch Case Info</span>
+                </button>
+            </form>
+
+            {% if error %}
+                <div class="error-box">
+                    <p>⚠️ {{ error }}</p>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- The results container, only shown if there is a result -->
+        {% if result %}
+            <div class="result-container glass-container" id="result-to-print">
+                <div class="result-header">
+                    <h2>📄 Case Details</h2>
+                    <button id="download-pdf-button" class="pdf-button">Download PDF</button>
+                </div>
+                <div class="result-box">
+                    {% for key, value in result.items() %}
+                        <div class="result-item">
+                            <strong>{{ key }}:</strong>
+                            {% if key == 'Orders / Judgments' and value is iterable and value is not string %}
+                                <ul class="pdf-list">
+                                {% for item in value %}
+                                    <li><a href="{{ item.url }}" target="_blank">{{ item.text or "Download PDF" }}</a></li>
+                                {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p>{{ value | safe }}</p>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- JavaScript to handle the loading spinner and PDF download -->
+    <script>
+        // Loading spinner logic
+        document.getElementById('case-form').addEventListener('submit', function() {
+            document.getElementById('loader').style.display = 'inline-block';
+            document.getElementById('button-text').style.display = 'none';
+            document.getElementById('submit-button').disabled = true;
+        });
+
+        // PDF download logic
+        const downloadBtn = document.getElementById('download-pdf-button');
+        if (downloadBtn) {
+            downloadBtn.addEventListener('click', function() {
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+
+                // --- PDF Styling and Configuration ---
+                const docTitle = "Case Details Report";
+                const titleFontSize = 18;
+                const headingFontSize = 12;
+                const textFontSize = 10;
+                const leftMargin = 15;
+                const topMargin = 20;
+                let yPos = topMargin;
+
+                // --- Document Title ---
+                pdf.setFont("helvetica", "bold");
+                pdf.setFontSize(titleFontSize);
+                pdf.text(docTitle, pdf.internal.pageSize.getWidth() / 2, yPos, { align: 'center' });
+                yPos += 15;
+
+                // --- Dynamically set PDF filename ---
+                const caseNoElement = document.querySelector('.result-item p'); // Find first <p> which is the case no.
+                const caseNoText = caseNoElement ? caseNoElement.innerText.replace(/[^a-zA-Z0-9]/g, '_') : 'case_details';
+                const fileName = `${caseNoText}.pdf`;
+
+                // --- Iterate through results and build PDF body ---
+                const resultItems = document.querySelectorAll('#result-to-print .result-item');
+                resultItems.forEach(item => {
+                    // Add a new page if content gets too long
+                    if (yPos > 270) { 
+                        pdf.addPage();
+                        yPos = topMargin;
+                    }
+
+                    const key = item.querySelector('strong').innerText;
+                    pdf.setFont("helvetica", "bold");
+                    pdf.setFontSize(headingFontSize);
+                    pdf.text(key, leftMargin, yPos);
+                    yPos += 6;
+
+                    pdf.setFont("helvetica", "normal");
+                    pdf.setFontSize(textFontSize);
+
+                    const valueP = item.querySelector('p');
+                    const valueUl = item.querySelector('ul');
+
+                    if (valueP) {
+                        // Handle text wrapping for long paragraphs
+                        const textLines = pdf.splitTextToSize(valueP.innerText, 180);
+                        pdf.text(textLines, leftMargin, yPos);
+                        yPos += (textLines.length * 4) + 6;
+                    } else if (valueUl) {
+                        const listItems = valueUl.querySelectorAll('li');
+                        listItems.forEach(li => {
+                            if (yPos > 275) {
+                                pdf.addPage();
+                                yPos = topMargin;
+                            }
+                            const bulletPoint = '\u2022  '; // Bullet character
+                            const textLines = pdf.splitTextToSize(li.innerText, 175);
+                            pdf.text(bulletPoint + textLines.join('\n'), leftMargin + 5, yPos);
+                            yPos += (textLines.length * 4) + 2;
+                        });
+                        yPos += 4;
+                    }
+                });
+
+                // --- Add Footer to all pages ---
+                const pageCount = pdf.internal.getNumberOfPages();
+                for(let i = 1; i <= pageCount; i++) {
+                    pdf.setPage(i);
+                    const footerText = `Page ${i} of ${pageCount} | Generated on: ${new Date().toLocaleDateString()}`;
+                    pdf.setFontSize(8);
+                    pdf.text(footerText, pdf.internal.pageSize.getWidth() / 2, 285, { align: 'center' });
+                }
+
+                // --- Save the PDF ---
+                pdf.save(fileName);
+            });
+        }
+    </script>
+</body>
+</html>

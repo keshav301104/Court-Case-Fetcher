@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding: 40px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .item {
+            margin: 15px 0;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Case Details</h2>
+        <div class="item"><span class="label">Case Title:</span> {{ case.case_title }}</div>
+        <div class="item"><span class="label">Status:</span> {{ case.status }}</div>
+        <div class="item"><span class="label">Court:</span> {{ case.court }}</div>
+        <div class="item"><span class="label">Petitioner:</span> {{ case.petitioner }}</div>
+        <div class="item"><span class="label">Respondent:</span> {{ case.respondent }}</div>
+        <div class="item"><span class="label">Last Updated:</span> {{ case.last_updated }}</div>
+    </div>
+</body>
+</html>

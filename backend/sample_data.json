@@ -1,0 +1,198 @@
+[
+  {
+    "case_type": "W.P.(C)", "case_number": "1234", "filing_year": "2023",
+    "details": { "Case No.": "W.P.(C) 1234/2023", "Parties": "Pioneer Urban Land and Infrastructure Ltd. vs. Union of India & Ors.", "Filing Date": "15-Mar-2023", "Next Hearing Date": "18-Sep-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 01-Aug-2025", "url": "#" }, { "text": "Order dated 15-Jul-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "Crl.A", "case_number": "567", "filing_year": "2024",
+    "details": { "Case No.": "Crl.A 567/2024", "Parties": "State (NCT of Delhi) vs. Ramesh Kumar", "Filing Date": "10-Jan-2024", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Final Judgment dated 10-Jun-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "CS(COMM)", "case_number": "890", "filing_year": "2022",
+    "details": { "Case No.": "CS(COMM) 890/2022", "Parties": "Innovate Corp vs. Tech Solutions Pvt. Ltd.", "Filing Date": "22-Oct-2022", "Next Hearing Date": "05-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "RFA", "case_number": "101", "filing_year": "2021",
+    "details": { "Case No.": "RFA 101/2021", "Parties": "Delhi Development Authority vs. Suresh Gupta", "Filing Date": "05-Feb-2021", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Order dated 12-Dec-2022", "url": "#" }, { "text": "Order dated 03-Nov-2022", "url": "#" } ] }
+  },
+  {
+    "case_type": "O.M.P.(COMM)", "case_number": "42", "filing_year": "2025",
+    "details": { "Case No.": "O.M.P.(COMM) 42/2025", "Parties": "National Highways Authority of India vs. GMR Infrastructure Ltd.", "Filing Date": "20-May-2025", "Next Hearing Date": "11-Oct-2025", "Status": "Admitted", "Orders / Judgments": [ { "text": "Notice Issued dated 25-May-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "Cont.Cas(C)", "case_number": "333", "filing_year": "2023",
+    "details": { "Case No.": "Cont.Cas(C) 333/2023", "Parties": "Anita Sharma vs. The Director of Education & Anr.", "Filing Date": "18-Jul-2023", "Next Hearing Date": "29-Aug-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "9876", "filing_year": "2022",
+    "details": { "Case No.": "W.P.(C) 9876/2022", "Parties": "Association of Tour Operators vs. Ministry of Tourism, Govt. of India", "Filing Date": "01-Dec-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Final Order dated 30-Jan-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "FAO(OS)(COMM)", "case_number": "15", "filing_year": "2024",
+    "details": { "Case No.": "FAO(OS)(COMM) 15/2024", "Parties": "Telefonaktiebolaget LM Ericsson vs. Lava International Ltd.", "Filing Date": "19-Apr-2024", "Next Hearing Date": "22-Sep-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 20-Apr-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "ARB.P.", "case_number": "205", "filing_year": "2023",
+    "details": { "Case No.": "ARB.P. 205/2023", "Parties": "Reliance Industries Ltd. vs. Bharat Sanchar Nigam Ltd.", "Filing Date": "25-Feb-2023", "Next Hearing Date": "10-Oct-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "MAT.APP.(F.C.)", "case_number": "88", "filing_year": "2022",
+    "details": { "Case No.": "MAT.APP.(F.C.) 88/2022", "Parties": "Sunita Devi vs. Rajesh Singh", "Filing Date": "14-Sep-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Judgment dated 15-Nov-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "W.P.(CRL)", "case_number": "741", "filing_year": "2024",
+    "details": { "Case No.": "W.P.(CRL) 741/2024", "Parties": "Social Jurist, A Civil Rights Group vs. Govt. of NCT of Delhi", "Filing Date": "03-Jun-2024", "Next Hearing Date": "01-Nov-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Notice Issued dated 05-Jun-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "CS(OS)", "case_number": "301", "filing_year": "2020",
+    "details": { "Case No.": "CS(OS) 301/2020", "Parties": "ITC Limited vs. Philip Morris Products S.A. & Ors.", "Filing Date": "11-Aug-2020", "Next Hearing Date": "14-Oct-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 20-Jul-2025", "url": "#" }, { "text": "Order dated 10-May-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "LA.APP.", "case_number": "92", "filing_year": "2019",
+    "details": { "Case No.": "LA.APP. 92/2019", "Parties": "Land Acquisition Collector vs. Ram Chander", "Filing Date": "09-May-2019", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Final Award dated 18-Dec-2021", "url": "#" } ] }
+  },
+  {
+    "case_type": "TR.P.(C.)", "case_number": "55", "filing_year": "2025",
+    "details": { "Case No.": "TR.P.(C.) 55/2025", "Parties": "Priya Verma vs. Amit Verma", "Filing Date": "12-Jul-2025", "Next Hearing Date": "30-Sep-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "4321", "filing_year": "2023",
+    "details": { "Case No.": "W.P.(C) 4321/2023", "Parties": "All India Students Union vs. University Grants Commission", "Filing Date": "22-Apr-2023", "Next Hearing Date": "04-Oct-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 15-Jun-2023", "url": "#" } ] }
+  },
+  {
+    "case_type": "Crl.Rev.P.", "case_number": "199", "filing_year": "2022",
+    "details": { "Case No.": "Crl.Rev.P. 199/2022", "Parties": "CBI vs. A. Raja & Ors.", "Filing Date": "25-Mar-2022", "Next Hearing Date": "19-Nov-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 01-Sep-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "CS(COMM)", "case_number": "112", "filing_year": "2024",
+    "details": { "Case No.": "CS(COMM) 112/2024", "Parties": "Microsoft Corporation vs. The Pirate Bay & Ors.", "Filing Date": "18-Feb-2024", "Next Hearing Date": "25-Oct-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Interim Injunction dated 20-Feb-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "MAC.APP.", "case_number": "501", "filing_year": "2021",
+    "details": { "Case No.": "MAC.APP. 501/2021", "Parties": "The New India Assurance Co. Ltd. vs. Geeta Devi & Ors.", "Filing Date": "07-Jul-2021", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Judgment dated 05-Mar-2023", "url": "#" } ] }
+  },
+  {
+    "case_type": "EFA(OS)", "case_number": "10", "filing_year": "2023",
+    "details": { "Case No.": "EFA(OS) 10/2023", "Parties": "Tata Steel Ltd. vs. JSW Steel Ltd.", "Filing Date": "11-Nov-2023", "Next Hearing Date": "15-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Test.Cas.", "case_number": "25", "filing_year": "2022",
+    "details": { "Case No.": "Test.Cas. 25/2022", "Parties": "In the matter of the will of Late Sh. Om Prakash", "Filing Date": "30-May-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Probate Granted dated 10-Jan-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "5555", "filing_year": "2025",
+    "details": { "Case No.": "W.P.(C) 5555/2025", "Parties": "Resident Welfare Association, Sector B vs. Municipal Corporation of Delhi", "Filing Date": "01-Aug-2025", "Next Hearing Date": "28-Nov-2025", "Status": "Newly Filed", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Crl.M.C.", "case_number": "2020", "filing_year": "2023",
+    "details": { "Case No.": "Crl.M.C. 2020/2023", "Parties": "Vikram Singh & Anr. vs. State & Anr.", "Filing Date": "09-Sep-2023", "Next Hearing Date": "N/A", "Status": "Disposed (Quashed by settlement)", "Orders / Judgments": [ { "text": "Order dated 15-Feb-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "CS(COMM)", "case_number": "404", "filing_year": "2023",
+    "details": { "Case No.": "CS(COMM) 404/2023", "Parties": "Google LLC vs. MakeMyTrip (India) Pvt. Ltd.", "Filing Date": "16-Jun-2023", "Next Hearing Date": "17-Oct-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order on Ad-interim relief dated 20-Jun-2023", "url": "#" } ] }
+  },
+  {
+    "case_type": "RFA", "case_number": "250", "filing_year": "2022",
+    "details": { "Case No.": "RFA 250/2022", "Parties": "Union Bank of India vs. M/s. Sunshine Exports", "Filing Date": "18-Apr-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Judgment dated 10-May-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "O.M.P.(I)(COMM.)", "case_number": "130", "filing_year": "2024",
+    "details": { "Case No.": "O.M.P.(I)(COMM.) 130/2024", "Parties": "Delhi Metro Rail Corporation Ltd. vs. Larsen & Toubro Ltd.", "Filing Date": "29-Jul-2024", "Next Hearing Date": "08-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "1122", "filing_year": "2021",
+    "details": { "Case No.": "W.P.(C) 1122/2021", "Parties": "Disabled Rights Group vs. Ministry of Social Justice and Empowerment", "Filing Date": "15-Jan-2021", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Final Directions Issued dated 20-Mar-2023", "url": "#" } ] }
+  },
+  {
+    "case_type": "Cont.Cas(C)", "case_number": "500", "filing_year": "2024",
+    "details": { "Case No.": "Cont.Cas(C) 500/2024", "Parties": "Rajeshwari Kumari vs. The Vice Chancellor, University of Delhi", "Filing Date": "10-Aug-2024", "Next Hearing Date": "12-Dec-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Show Cause Notice Issued dated 12-Aug-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "FAO", "case_number": "300", "filing_year": "2023",
+    "details": { "Case No.": "FAO 300/2023", "Parties": "ICICI Lombard General Insurance Co. Ltd. vs. Krishna Kumar", "Filing Date": "21-Jun-2023", "Next Hearing Date": "24-Oct-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "CS(OS)", "case_number": "600", "filing_year": "2018",
+    "details": { "Case No.": "CS(OS) 600/2018", "Parties": "Hindustan Unilever Ltd. vs. Reckitt Benckiser (India) Pvt. Ltd.", "Filing Date": "05-Nov-2018", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Decree dated 15-Jan-2022", "url": "#" } ] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "7777", "filing_year": "2023",
+    "details": { "Case No.": "W.P.(C) 7777/2023", "Parties": "Federation of Indian Airlines vs. Director General of Civil Aviation", "Filing Date": "02-Aug-2023", "Next Hearing Date": "03-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Crl.A", "case_number": "100", "filing_year": "2025",
+    "details": { "Case No.": "Crl.A 100/2025", "Parties": "Sandeep Sharma vs. State of Haryana", "Filing Date": "15-Mar-2025", "Next Hearing Date": "09-Sep-2025", "Status": "Admitted", "Orders / Judgments": [ { "text": "Bail Application Order dated 20-Mar-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "CS(COMM)", "case_number": "1", "filing_year": "2025",
+    "details": { "Case No.": "CS(COMM) 1/2025", "Parties": "Netflix Entertainment Services India LLP vs. Hotstar Communications Pvt. Ltd.", "Filing Date": "05-Jan-2025", "Next Hearing Date": "20-Aug-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "RFA", "case_number": "50", "filing_year": "2024",
+    "details": { "Case No.": "RFA 50/2024", "Parties": "Municipal Corporation of Delhi vs. M/s Aggarwal Properties", "Filing Date": "20-Jan-2024", "Next Hearing Date": "10-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "888", "filing_year": "2022",
+    "details": { "Case No.": "W.P.(C) 888/2022", "Parties": "National Association of Street Vendors of India vs. New Delhi Municipal Council", "Filing Date": "10-Feb-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Final Order dated 18-Apr-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "O.M.P.(COMM)", "case_number": "250", "filing_year": "2023",
+    "details": { "Case No.": "O.M.P.(COMM) 250/2023", "Parties": "Adani Ports and Special Economic Zone Ltd vs. The Board of Trustees of Jawaharlal Nehru Port Trust", "Filing Date": "30-Oct-2023", "Next Hearing Date": "05-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Cont.Cas(C)", "case_number": "10", "filing_year": "2025",
+    "details": { "Case No.": "Cont.Cas(C) 10/2025", "Parties": "Dr. Sunita Reddy vs. The Medical Superintendent, AIIMS", "Filing Date": "08-Feb-2025", "Next Hearing Date": "19-Sep-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "FAO(OS)(COMM)", "case_number": "75", "filing_year": "2023",
+    "details": { "Case No.": "FAO(OS)(COMM) 75/2023", "Parties": "Amazon Seller Services Pvt. Ltd. vs. Flipkart Internet Pvt. Ltd.", "Filing Date": "15-Sep-2023", "Next Hearing Date": "21-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "ARB.P.", "case_number": "505", "filing_year": "2024",
+    "details": { "Case No.": "ARB.P. 505/2024", "Parties": "M/s. Punj Lloyd Ltd. vs. Oil and Natural Gas Corporation Ltd.", "Filing Date": "14-Aug-2024", "Next Hearing Date": "18-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "MAT.APP.(F.C.)", "case_number": "123", "filing_year": "2023",
+    "details": { "Case No.": "MAT.APP.(F.C.) 123/2023", "Parties": "Amit Kumar vs. Priyanka Sharma", "Filing Date": "19-Oct-2023", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Divorce Decree dated 25-Jul-2025", "url": "#" } ] }
+  },
+  {
+    "case_type": "W.P.(CRL)", "case_number": "1500", "filing_year": "2023",
+    "details": { "Case No.": "W.P.(CRL) 1500/2023", "Parties": "People's Union for Civil Liberties vs. Commissioner of Police, Delhi", "Filing Date": "06-Nov-2023", "Next Hearing Date": "13-Oct-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "CS(OS)", "case_number": "10", "filing_year": "2024",
+    "details": { "Case No.": "CS(OS) 10/2024", "Parties": "The Coca-Cola Company vs. PepsiCo, Inc.", "Filing Date": "08-Jan-2024", "Next Hearing Date": "20-Nov-2025", "Status": "Pending", "Orders / Judgments": [ { "text": "Order dated 10-Jan-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "LA.APP.", "case_number": "150", "filing_year": "2022",
+    "details": { "Case No.": "LA.APP. 150/2022", "Parties": "Govt. of NCT of Delhi vs. Farmers Association of Delhi", "Filing Date": "17-Aug-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Compensation Enhanced dated 10-Oct-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "TR.P.(C.)", "case_number": "100", "filing_year": "2024",
+    "details": { "Case No.": "TR.P.(C.) 100/2024", "Parties": "Meena Kumari vs. Subhash Chandra", "Filing Date": "22-Sep-2024", "Next Hearing Date": "19-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "W.P.(C)", "case_number": "10000", "filing_year": "2023",
+    "details": { "Case No.": "W.P.(C) 10000/2023", "Parties": "Centre for Public Interest Litigation vs. Reserve Bank of India", "Filing Date": "11-Sep-2023", "Next Hearing Date": "07-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Crl.Rev.P.", "case_number": "300", "filing_year": "2023",
+    "details": { "Case No.": "Crl.Rev.P. 300/2023", "Parties": "Enforcement Directorate vs. Vijay Mallya", "Filing Date": "13-May-2023", "Next Hearing Date": "24-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "CS(COMM)", "case_number": "500", "filing_year": "2024",
+    "details": { "Case No.": "CS(COMM) 500/2024", "Parties": "Sony Pictures Networks India Pvt. Ltd. vs. YouTube LLC & Ors.", "Filing Date": "09-Sep-2024", "Next Hearing Date": "11-Dec-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "MAC.APP.", "case_number": "1000", "filing_year": "2022",
+    "details": { "Case No.": "MAC.APP. 1000/2022", "Parties": "Bajaj Allianz General Insurance Co. Ltd. vs. Sunita Singh & Ors.", "Filing Date": "28-Nov-2022", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Judgment dated 01-Dec-2024", "url": "#" } ] }
+  },
+  {
+    "case_type": "EFA(OS)", "case_number": "20", "filing_year": "2024",
+    "details": { "Case No.": "EFA(OS) 20/2024", "Parties": "Future Retail Ltd. vs. Amazon.com NV Investment Holdings LLC", "Filing Date": "17-Mar-2024", "Next Hearing Date": "26-Nov-2025", "Status": "Pending", "Orders / Judgments": [] }
+  },
+  {
+    "case_type": "Test.Cas.", "case_number": "50", "filing_year": "2023",
+    "details": { "Case No.": "Test.Cas. 50/2023", "Parties": "In the matter of the last will and testament of Smt. Indira Devi", "Filing Date": "04-Jul-2023", "Next Hearing Date": "N/A", "Status": "Disposed", "Orders / Judgments": [ { "text": "Letters of Administration Granted dated 10-Aug-2025", "url": "#" } ] }
+  }
+]
