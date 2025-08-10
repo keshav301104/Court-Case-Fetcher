@@ -28,7 +28,7 @@ Professional PDF Export: Generate clean, report-style PDF documents of case deta
 Responsive Design: Ensures a seamless experience across desktop and mobile devices.
 
 🖼️ Screenshots
-Search Page
+Search Page - ![Search Page](screenshorts/starting-page.png)
 
 Results & PDF Download
 
