@@ -9,14 +9,14 @@ A sleek, modern web application for searching, viewing, and exporting Indian cou
 
 </div>
 
-🚀 Live Demo: [Link to your deployed application on Render/Heroku/etc.]
+🚀 **Live Demo**: [Link to your deployed application on Render/Heroku/etc.]
 
-🎥 Demo Video: [Link to your 5-minute demo video on YouTube or Loom]
+🎥 **Demo Video**: [Link to your 5-minute demo video on YouTube or Loom]
 
-🌟 About The Project
+🌟 **About The Project**
 This project is a fully-featured mini-dashboard designed to provide instant access to court case information. Faced with the real-world challenge of protected government websites, this application demonstrates a pragmatic and robust approach by simulating a backend API with a comprehensive mock dataset. It's built not just to fulfill a task, but to showcase a clean architecture, a polished user experience, and a developer's ability to adapt to technical constraints.
 
-✨ Key Features
+✨ **Key Features**
 Modern "Glassmorphism" UI: A visually appealing interface that makes data interaction a pleasure.
 
 Realistic Mock API: A hand-curated JSON data source with over 50 entries that mirrors the complexity of real court records.
@@ -27,32 +27,32 @@ Professional PDF Export: Generate clean, report-style PDF documents of case deta
 
 Responsive Design: Ensures a seamless experience across desktop and mobile devices.
 
-🖼️ Screenshots
+🖼️ **Screenshots**
 Search Page - ![Search Page](screenshorts/starting-page.png)
 Form Filling Page - ![Form filling](screenshorts/form-filling.png)
 
-Results & PDF Download
+Results & PDF Download - ![Results](screenshorts/results-page.png)
 
 
 
 
 
-🏛️ Architecture & Design Decisions
+🏛️ **Architecture & Design Decisions**
 A key challenge in this project was accessing data from live court websites, which are heavily protected by CAPTCHA and other security measures. Instead of being a blocker, this became an opportunity to demonstrate a key engineering principle: pragmatism and adaptability.
 
 The Pivot to a Mock API:
 
-Problem: Direct scraping is unreliable and brittle.
+**Problem**: Direct scraping is unreliable and brittle.
 
-Solution: I developed a comprehensive sample_data.json file to act as a stable, local API. This allowed me to focus on building a feature-rich frontend and a robust backend without being dependent on a flaky external source. This decision simulates a microservice architecture where the frontend is decoupled from the data source.
+**Solution**: I developed a comprehensive sample_data.json file to act as a stable, local API. This allowed me to focus on building a feature-rich frontend and a robust backend without being dependent on a flaky external source. This decision simulates a microservice architecture where the frontend is decoupled from the data source.
 
-Dual-Database Approach:
+**Dual-Database Approach**:
 
-Data Source (NoSQL-style): The sample_data.json file serves as our document-based data store, providing flexibility and speed for development.
+**Data Source (NoSQL-style)**: The sample_data.json file serves as our document-based data store, providing flexibility and speed for development.
 
-Query Logging (RDBMS): To strictly adhere to the project requirements, a separate SQLite database (queries.db) is used for the sole purpose of logging user search queries. This demonstrates the ability to work with and integrate different types of databases for different purposes.
+**Query Logging (RDBMS)**: To strictly adhere to the project requirements, a separate SQLite database (queries.db) is used for the sole purpose of logging user search queries. This demonstrates the ability to work with and integrate different types of databases for different purposes.
 
-🛠️ How To Run Locally
+🛠️ **How To Run Locally**
 Follow these steps to get the project up and running on your local machine.
 
 Prerequisites:
