@@ -29,6 +29,7 @@ Responsive Design: Ensures a seamless experience across desktop and mobile devic
 
 🖼️ Screenshots
 Search Page - ![Search Page](screenshorts/starting-page.png)
+Form Filling Page - ![Form filling](screenshorts/form-filling.png)
 
 Results & PDF Download
 
