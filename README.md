@@ -9,7 +9,7 @@ A sleek, modern web application for searching, viewing, and exporting Indian cou
 
 </div>
 
-🚀 **Live Demo**: [Link to your deployed application on Render/Heroku/etc.]
+🚀 **Live Demo**: https://court-case-fetcher-jtjx.onrender.com
 
 🎥 **Demo Video**: [Link to your 5-minute demo video on YouTube or Loom]
 
