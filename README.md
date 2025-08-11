@@ -11,7 +11,7 @@ A sleek, modern web application for searching, viewing, and exporting Indian cou
 
 🚀 **Live Demo**: https://court-case-fetcher-jtjx.onrender.com
 
-🎥 **Demo Video**: [Link to your 5-minute demo video on YouTube or Loom]
+🎥 **Demo Video**:  [Watch the demo video](video/court-case-fetcher(video).mp4)
 
 🌟 **About The Project**
 This project is a fully-featured mini-dashboard designed to provide instant access to court case information. Faced with the real-world challenge of protected government websites, this application demonstrates a pragmatic and robust approach by simulating a backend API with a comprehensive mock dataset. It's built not just to fulfill a task, but to showcase a clean architecture, a polished user experience, and a developer's ability to adapt to technical constraints.
