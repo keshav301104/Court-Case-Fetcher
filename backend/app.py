@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from .scrapper import fetch_case_data
+from scrapper import fetch_case_data
 import json
 
 # This is the new database setup part
